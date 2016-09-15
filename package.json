@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-transform-es2015-modules-strip",
+  "version": "0.1.0",
+  "description": "A Babel plugin that strips import and export declarations.",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "homepage": "https://github.com/bardiharborow/babel-plugin-transform-es2015-modules-strip",
+  "bugs": {
+    "url": "https://github.com/bardiharborow/babel-plugin-transform-es2015-modules-strip/issues",
+    "email": "bardi@bardiharborow.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Bardi Harborow",
+    "email": "bardi@bardiharborow.com",
+    "url": "https://bardiharborow.com/"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bardiharborow/babel-plugin-transform-es2015-modules-strip.git"
+  }
+}
