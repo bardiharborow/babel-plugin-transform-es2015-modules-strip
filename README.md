@@ -42,3 +42,5 @@ require("babel-core").transform("code", {
   plugins: ["transform-es2015-modules-strip"]
 });
 ```
+
+Made with <3 by [Bardi Harborow](https://bardiharborow.com).
