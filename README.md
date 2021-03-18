@@ -4,7 +4,7 @@
 ![](https://img.shields.io/npm/dw/babel-plugin-transform-es2015-modules-strip)
 [![This project is licensed under the terms of the MIT license.](https://img.shields.io/npm/l/babel-plugin-transform-es2015-modules-strip)](https://github.com/bardiharborow/babel-plugin-transform-es2015-modules-strip/blob/master/LICENSE)
 
-This plugin strips ECMAScript module import and export statements from a script.
+This is a Babel plugin which strips import and export statements from modules.
 
 ## Example
 
