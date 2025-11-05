@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-es2015-modules-strip",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Babel plugin that strips import and export statements from modules.",
   "keywords": [
     "babel-plugin"
