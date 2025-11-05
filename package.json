@@ -21,7 +21,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bardiharborow/babel-plugin-transform-es2015-modules-strip.git"
+    "url": "git+https://github.com/bardiharborow/babel-plugin-transform-es2015-modules-strip.git"
   },
   "scripts": {
     "js-lint": "eslint .",
