@@ -4,11 +4,17 @@
 ![](https://img.shields.io/npm/dw/babel-plugin-transform-es2015-modules-strip)
 [![This project is licensed under the terms of the MIT license.](https://img.shields.io/npm/l/babel-plugin-transform-es2015-modules-strip)](https://github.com/bardiharborow/babel-plugin-transform-es2015-modules-strip/blob/master/LICENSE)
 
-This is a Babel plugin which strips import and export statements from modules.
+A Babel plugin that strips `import` and `export` statements from modules.
+
+## Installation
+
+```sh
+npm install --save-dev babel-plugin-transform-es2015-modules-strip
+```
 
 ## Example
 
-**In**
+The plugin takes this code:
 
 ```javascript
 import path from 'path';
@@ -18,21 +24,15 @@ console.log(path.sep);
 export default 42;
 ```
 
-**Out**
+And returns this code:
 
 ```javascript
 console.log(path.sep);
 ```
 
-## Installation
-
-```sh
-npm install --save-dev babel-plugin-transform-es2015-modules-strip
-```
-
 ## Usage
 
-### With a configuration file (Recommended)
+### In the `babel.config.json` configuration file
 
 ```json
 {
@@ -45,7 +45,7 @@ npm install --save-dev babel-plugin-transform-es2015-modules-strip
 }
 ```
 
-### Via Node API
+### With the Node API
 
 ```javascript
 require("@babel/core").transformSync("code", {
@@ -57,6 +57,12 @@ require("@babel/core").transformSync("code", {
   plugins: ["transform-es2015-modules-strip"]
 });
 ```
+
+## History
+
+This plugin was used by [Bootstrap](https://github.com/twbs/bootstrap) between
+v4.0.0-beta ([twbs/bootstrap#22045](https://github.com/twbs/bootstrap/pull/22045))
+and v4.1.2 ([twbs/bootstrap#26767](https://github.com/twbs/bootstrap/pull/26767)).
 
 ## License
 
