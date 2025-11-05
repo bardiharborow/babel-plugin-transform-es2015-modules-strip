@@ -17,6 +17,7 @@
     "url": "https://bardiharborow.com/"
   },
   "funding": "https://github.com/sponsors/bardiharborow",
+  "files": [],
   "main": "lib/index.js",
   "repository": {
     "type": "git",
